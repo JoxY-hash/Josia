@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>survey form</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    
+<h1 id="title">Survey Form</h1>
+<p id="description">Please fill out the survey below to help us improve our services!</p>
+<form id="survey-form" method="post">
+    <label for="name" id="name-label">Your Name:</label>
+    <input type="text" id="name" placeholder="Enter full name" required>
+    <br>
+    <br>
+    <label for="email" id="email-label">Your Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter a valid email address" required>
+    <br>
+    <br>
+    <label for="number" id="number-label">Age:</label>
+    <input type="number" id="number" name="number" placeholder="Enter your age" min="10" max="30" required>
+    <br>
+    <br>
+    <label for="Dropdown">select your preferred services </label>
+    <select id="dropdown" name="service">
+        <option value="web-design">Web Design</option>
+        <option value="app-development">App Development</option>
+    </select>
+    <br>
+    <br>
+    <label>How satisfied are you with our services?</label>
+    <div>
+        <input type="radio" id="excellent" name="satisfaction" value="excellent">
+        <label for="excellent">Excellent</label>
+    </div>
+    <div>
+        <input type="radio" id="good" name="satisfaction" value="good">
+        <label for="good">good</label>
+    </div>
+    <label>Select the services you are interested in:</label>
+    <div>
+        <input type="checkbox" id="web" name="services" value="web-design">
+        <label for="web">Web Design</label>
+    </div>
+    <div>
+        <input type="checkbox" id="app" name="services" value="app-development">
+        <label for="app">App Development</label>
+    </div>
+    <label for="comments">Additional Comments:</label>
+    <textarea id="comments" name="comments" placeholder="Any other feedback?" rows="10" cols="50"></textarea>
+    <br>
+    <br>
+    <button type="submit" id="submit">submit</button>
+</form>
+</div>
 </body>
-</html>

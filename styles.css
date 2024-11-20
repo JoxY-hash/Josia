@@ -1,0 +1,48 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(63, 48, 171);
+    margin:0px
+}
+div{
+    border:1px;
+}
+#h1{
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-align: center;
+    border: 1px;  
+    background: yellowgreen;
+    justify-content: center;
+}
+.label{
+    display:block;
+    margin:10px;
+}
+input[type="radio"]{
+    height: auto;
+    font-weight: 400;
+    display: inline;
+}
+input{
+    display: block;
+    margin:10px;
+    width:50%;
+    height:5%;
+    border:5px solid black;
+    
+}
+form{
+    border:10px;  
+    width:50%;
+    margin:20px auto;
+    padding: 20px;
+    height: 100vh;
+    display: block;
+    
+}
+ #p{
+    border: 5px;
+    background: rgb(223, 230, 230);
+    text-align: center;
+}

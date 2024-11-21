@@ -1,48 +1,65 @@
-body{
-    font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(63, 48, 171);
-    margin:0px
-}
-div{
-    border:1px;
-}
-#h1{
-    color: blueviolet;
+h1{
+    color: rgb(233, 226, 240);
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
     text-align: center;
     border: 1px;  
-    background: yellowgreen;
-    justify-content: center;
+    justify-content:center;
 }
-.label{
-    display:block;
-    margin:10px;
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(79, 75, 110);
+    margin:0px
 }
-input[type="radio"]{
-    height: auto;
-    font-weight: 400;
-    display: inline;
+form{
+    border:1px solid rgb(79, 59, 59);   
+    width:50%;
+    margin:20px auto;
+    padding: 2px;
+    display: block;
+    color: rgb(5, 7, 7);
+}
+p{
+    border: 5px;
+    text-align: center;
+    color:white
+}
+.legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
 }
 input{
     display: block;
-    margin:10px;
-    width:50%;
-    height:5%;
-    border:5px solid black;
-    
+    border:2px solid black;
+    border-radius: 5px;
+    width: 400px;
+    line-height: 5px;
+    height: 20px;
 }
-form{
-    border:10px;  
-    width:50%;
-    margin:20px auto;
-    padding: 20px;
-    height: 100vh;
-    display: block;
-    
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(102, 114, 114);
+    margin:0px
 }
- #p{
-    border: 5px;
-    background: rgb(223, 230, 230);
+#description {
     text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.1em;
 }
+#submit{
+    height: 40px;
+    width: 400px;
+    margin: 152px;
+    color: antiquewhite;
+    background: aquamarine;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+

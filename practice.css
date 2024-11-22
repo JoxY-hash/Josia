@@ -81,15 +81,18 @@ select option{
  
 }
 #filter{
+    margin: 10px;
+}
+#filter{
     flex-direction: 0px;
     padding: 0px;
     border: 10px white;
 }
 #filter select{
-    width: 19%;
+    width: 17%;
     justify-content: space-between;
     align-items: flex-end;
-    margin-top: 10px;
+    margin-top: 10px 10px;
     padding: 10px;
     border-radius: 1px;
 }

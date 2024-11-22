@@ -20,14 +20,18 @@ p{
 
     
 }
-.header{
+header{
     background-color:rgb(75, 75, 177);
     color: aliceblue;
     text-align:center;
     padding: 2em 1em;
+    
 }
 
 body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: blue;
     border: 10px;
     background-color:white;
     margin:0px;
@@ -39,24 +43,77 @@ body{
     border: 5px;
     border-radius: 5px;
     box-shadow: 10px;
+    display: grid;
+    flex:40%;
 }
-section{
-     border: 10px;
-     display: flex;
-    margin: 10px;
-    padding: 30px;
-    text-align: center;
-    color: blue;
+#products {
+    border: 0px solid white;
+    margin: 0px;
+    padding:10px;
+    color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 10px;
     width: 900;
+    background-color: blue;
+    margin-left: 300px;
+    margin-right: 300px;
+    box-shadow:blue;
+    margin-left: 300px;
+}
+h2{
+    color: aliceblue;
+ }
+ h3{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    }
+#product-list div{
+display: flex;
+flex-wrap:wrap;
+    gap: 0px;
+    font-size: 15px;
+    justify-content: space-between;
+}
+select option{
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+ 
+}
+#filter{
+    flex-direction: 0px;
+    padding: 0px;
+    border: 10px white;
+}
+#filter select{
+    width: 19%;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 1px;
+}
+#product-items div{
+    height: 80px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: 20px solid white;
+    display: flex;
+    box-shadow: 0px 2px;
+    width: 15%;
+    justify-content: center;
+    margin-block: 4px;
+}
+
+
+
+
+
+
+
     
-}
-#product section {
-    text-align: right;
+    
 
-
-}
 
 
     

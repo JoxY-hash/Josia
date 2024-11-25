@@ -110,7 +110,22 @@ select option{
     width: 15%;
     justify-content: center;
     margin-block: 4px;
+
 }
+/* Responsiveness============ */
+/* extra-large screen */
+@media (max-width:) 
+/* tablet */
+@media (min-width:786px)and (max-width:1024px){
+#projects.project-cards.project-card{
+    width:49%
+    height: 150px;
+}
+}
+
+    
+
+    
 
 
 
